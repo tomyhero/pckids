@@ -6,7 +6,7 @@ layout: default
 
 ## 初期準備
 
-* 初期準備 - mailアドレス取得、Slackチャットへの参加
+* [初期準備 - mailアドレス取得、Slackチャットへの参加](./getting_started/prepare/)
 
 ## タイピング
 
