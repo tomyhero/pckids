@@ -19,10 +19,21 @@ layout: default
 
 ## 目次
 
+* 基本変数
+* if else
+* switch
+* for 
+* パッケージ
+* defer
+* structs
+* array
+* slice
+* map
+* A Tour of Goをやってみよう
+
 
 ## 参照
 
 * [Go Playground](http://play.golang.org/)
 * [a tour of Go](https://go-tour-jp.appspot.com/list)
-
 

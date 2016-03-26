@@ -21,12 +21,12 @@ layout: default
 
 # 目次
 
-* [Gmailアカウントを手に入れよう。](./google_account)[^1]
-* [メールでやりとりをしてみよう。](./hello_email)
-* Slackに登録しよう。
-* Slackで友達とやりとりをしてみよう。
-* Slackをさらに使いこなしてみよう。
-* 宿題をやるときのルール。
+* [Gmailアカウントを手に入れよう](./google_account)[^1]
+* [メールでやりとりをしてみよう](./hello_email)
+* [Slackに登録しよう](./slack_install)
+* [Slackで友達とやりとりをしてみよう](./slack_play)
+* [Slackをさらに使いこなしてみよう](./slack)
+* [宿題をやるときのルール](./homework)
 
 # 注釈
 
