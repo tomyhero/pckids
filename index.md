@@ -16,7 +16,7 @@ layout: default
 
 ## Golang
 
-* Golang基本1コース - 基本構文の理解
+* [Golang基本1コース - 基本構文の理解](./golang/basic01/)
 * Golang基本2コース - Golangのインストール、複数のプログラムの管理、簡単な課題作品作成
 
 
