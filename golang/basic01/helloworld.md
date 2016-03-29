@@ -103,7 +103,7 @@ fmtの魔法の書には、Println() という魔法があって、これを使�
 
 
 [fmtの魔法の書原本](https://golang.org/pkg/fmt/)はここにあるよ。
-[fmtの日本語の魔法の書]http://golang.jp/pkg/fmt]はここだね
+[fmtの日本語の魔法の書](http://golang.jp/pkg/fmt)はここだね
 
 
 ## 課題

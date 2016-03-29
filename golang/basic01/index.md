@@ -20,7 +20,7 @@ layout: default
 ## 目次
 
 * [Hello World](./helloworld)
-* 基本変数
+* [基本変数](./variable)
 * if else
 * switch
 * for 
