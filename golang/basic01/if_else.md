@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# 基本変数
+# if else
 
 ## 概要
 

@@ -22,9 +22,9 @@ layout: default
 * [Hello World](./helloworld)
 * [基本変数](./variable)
 * [if else](./if_else)
-* switch
-* for 
-* パッケージ
+* [switch](./switch)
+* [for](./for)
+* package
 * defer
 * structs
 * array
