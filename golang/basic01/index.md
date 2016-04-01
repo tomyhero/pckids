@@ -21,7 +21,7 @@ layout: default
 
 * [Hello World](./helloworld)
 * [基本変数](./variable)
-* if else
+* [if else](./if_else)
 * switch
 * for 
 * パッケージ
