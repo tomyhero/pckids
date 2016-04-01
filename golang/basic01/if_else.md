@@ -193,6 +193,30 @@ if number == 3 {
 [サンプル](http://play.golang.org/p/npD5k0weT8)
 
 
+## 複数の条件
+
+一つのifに、複数の条件を指定することができるよ
+
+
+```
+
+var number int = 3
+var name string = "たけ"
+
+// numberが3 で name がたけの場合。両方あってればOK
+if  number == 3 && name == "たけ" {
+    fmt.Println("両方あってるよ");
+}
+
+// numberが3か、nameがたけの場合。どっちかが、あってればOK
+if  number == 3 || name == "たけ" {
+    fmt.Println("どっちかがあってるよ");
+}
+
+```
+[サンプル](http://play.golang.org/p/mQ7iAYCvT-)
+
+
 ## ヒント
 
 * { はかならず } で閉じる
