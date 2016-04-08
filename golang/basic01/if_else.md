@@ -223,6 +223,10 @@ if  number == 3 || name == "たけ" {
 * ( はかならず ) で閉じる
 * " はかならず " で閉じる
 
+## 練習問題
+
+* [ifの練習問題](./practice/if)
+
 ## 参照
 
 - A Tour of Go: [If](https://go-tour-jp.appspot.com/flowcontrol/5)

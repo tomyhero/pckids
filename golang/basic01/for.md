@@ -82,5 +82,7 @@ for i := 10; i != 0 ; i-- {
 [サンプル](http://play.golang.org/p/OshTONLH9_)
 
 
+## 練習問題
 
+* [forの練習問題](./practice/for)
 
