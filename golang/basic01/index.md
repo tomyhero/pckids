@@ -21,6 +21,7 @@ layout: default
 
 * [Hello World](./helloworld)
 * [基本変数](./variable)
+* [block](./block)
 * [if else](./if_else)
 * [switch](./switch)
 * [for](./for)
