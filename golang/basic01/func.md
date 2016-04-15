@@ -146,3 +146,7 @@ func main(){
 ```
 [サンプル](http://play.golang.org/p/QfZY2J8_A0)
 
+
+## 練習問題
+
+[練習問題](./practice/func)
