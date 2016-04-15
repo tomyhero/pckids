@@ -25,6 +25,7 @@ layout: default
 * [if else](./if_else)
 * [switch](./switch)
 * [for](./for)
+* [func](./func)
 * package
 * defer
 * structs
