@@ -26,12 +26,11 @@ layout: default
 * [switch](./switch)
 * [for](./for)
 * [func](./func)
-* package
-* defer
-* structs
-* array
-* slice
+* [array,slice](./array)
 * map
+* structs
+* defer,panic,recover
+* package
 * A Tour of Goをやってみよう
 
 
