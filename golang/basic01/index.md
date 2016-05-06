@@ -30,7 +30,8 @@ layout: default
 * [map](./map)
 * [interface](./interface)
 * [struct](./struct)
-* defer,panic,recover
+* [defer,panic,recover](./defer_panic_recover)
+* [install go](./install_go)
 * package
 * A Tour of Goをやってみよう
 
