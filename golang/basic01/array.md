@@ -109,3 +109,7 @@ numbers = numbers[0:2]
 
 ```
 [サンプル](http://play.golang.org/p/VF4jQzkDBp)
+
+
+
+[練習問題](./practice/array)

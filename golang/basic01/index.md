@@ -27,8 +27,10 @@ layout: default
 * [for](./for)
 * [func](./func)
 * [array,slice](./array)
-* map
+* [map](./map)
+* interface
 * structs
+* advanced map
 * defer,panic,recover
 * package
 * A Tour of Goをやってみよう
