@@ -28,7 +28,7 @@ layout: default
 * [func](./func)
 * [array,slice](./array)
 * [map](./map)
-* interface
+* [interface](./interface)
 * structs
 * advanced map
 * defer,panic,recover
