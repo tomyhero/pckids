@@ -112,4 +112,47 @@ func main() {
 
 
 
+## 値渡しと参照わたし
 
+structを引数として渡すときに、値渡しというやり方と、参照わたしというやり方があります。
+
+
+値で渡すと、同じものをコピーして渡します。参照で渡すと、じゅうしょだけを教えて、値は渡しません。
+
+
+```
+// のりものの struct だよ
+type Norimono struct {
+    Name      string
+        Toberu    bool
+        Hashireru bool
+        Ukaberu   bool
+        Oto       string
+}
+
+func main() {
+
+    // 魂をいれる
+    kuruma := Norimono{Name: "くるま", Toberu: false, Hashireru: true, Ukaberu: false, Oto: "プップー"}
+
+    Hensin(kuruma)
+    fmt.Println(kuruma.Name)
+
+    SugoiHensin(&kuruma)
+    fmt.Println(kuruma.Name)
+
+}
+
+// 値渡し
+func Hensin(n Norimono) {
+    n.Name = "スポーツカー"
+}
+
+// 参照渡し
+func SugoiHensin(n *Norimono) {
+    n.Name = "スポーツカー"
+}
+
+
+```
+[サンプル](https://play.golang.org/p/_IInm0moIY){:target="_blank"}
