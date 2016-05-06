@@ -17,6 +17,7 @@ layout: default
 ### 2. gvmのインストール
 
 以下の処理を実行( xcode,brew等のインストールが先に必要かも... )
+
 ```
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 ```
@@ -24,6 +25,7 @@ bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/bins
 ### 3. goのインストール
 
 以下の処理を実行
+
 ```
 gvm install go1.4 -B
 gvm use go1.4
