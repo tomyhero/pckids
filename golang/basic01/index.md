@@ -32,7 +32,7 @@ layout: default
 * [struct](./struct)
 * [defer,panic,recover](./defer_panic_recover)
 * [install go](./install_go)
-* package
+* [package](./package)
 * A Tour of Goをやってみよう
 
 
