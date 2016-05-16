@@ -11,7 +11,7 @@ layout: default
 ## タイピング
 
 * [タイピング基本1コース - アルファベット、ローマ字の習得、タイピングの基本の習得 ](./editor/basic01/) 
-* Vimコース - Vim Editorの基本的操作の習得
+* [Vimコース - Vim Editorの基本的操作の習得](./editor/vim01/)
 
 ## Golang
 
