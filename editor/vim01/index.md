@@ -11,3 +11,9 @@ CUI上で有名な、[Vimエディター](http://www.vim.org/){:target="_blank"}
 ## 目次
 
 * [Hello Vim](./hellovim)
+
+
+
+## 参照
+
+* [チートシート(http://vim.rtorr.com/lang/ja/){:target="_blank"}
