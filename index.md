@@ -28,3 +28,7 @@ layout: default
 * HTML基本1コース - HTML基本構文の習得
 * HTML基本2コース - CSSの習得
 
+
+## その他参照
+
+* [たからさがしげーむ](./misc/takarasagashi)
