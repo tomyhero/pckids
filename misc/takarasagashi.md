@@ -28,18 +28,12 @@ git clone https://github.com/tomyhero/takarasagashi.git
 ```
 
 cd takarasagashi
-go build -v -o ~/Desktop/takarasagashi app.go
+go build -o takarasagashi app.go
 
 ```
 
-デスクトップに takarasagashi ファイルができましたか？
+takarasagashi ファイルができましたか？
 
-## 実行権限をつける
-
-```
-cd ~/Desktop
-chmod 775 takarasagashi
-```
 
 # 遊んでみる
 
@@ -164,8 +158,7 @@ var DIR_NAMES []string = []string{"isu", "tukue", "hako", "kokuban", "kuruma", "
 
 ```
 
-go build -v -o ~/Desktop/takarasagashi app.go
-chmod ~/Desktop/takarasagashi 775
+go build -o takarasagashi app.go
 
 ```
 
