@@ -9,6 +9,7 @@
 title: PC Kids
 email: tomohiro.teranishi@gmail.com
 baseurl: "/pckids" # the subpath of your site, e.g. /blog
+imgurl: "/img"
 url: "http://tomyhero.github.io" # the base hostname & protocol for your site
 
 # Build settings

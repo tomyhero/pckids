@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 # Golang基本1コース - 基本構文の理解

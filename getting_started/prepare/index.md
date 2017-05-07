@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 # 初期準備

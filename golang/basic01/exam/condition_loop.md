@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 # Golang基本1コース - 条件文、繰り返し文試験

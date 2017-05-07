@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 # Unix基本1コース - Macターミナルを活用できるようになる
