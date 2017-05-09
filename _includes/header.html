@@ -24,15 +24,31 @@
 
 </header>-->
 
-<header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+<style>
+.header-layout-transparent {
+  background: url('{{ site.baseurl }}/img/bg.jpg') bottom right / contain;
+}
+.header-layout-transparent .mdl-layout__header,
+.header-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+</style>
+
+<header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary header-layout-transparent">
     <!--<h3><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h3>-->
-    <div class="mdl-grid">
-      <div class="mdl-layout__header-row">
-        
-          <a class="site-title" href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}" width="300"/>
-          </a>
-        
+    <!--<div class="mdl-grid">-->
+      <div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
+      <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        <div class="mdl-grid mdl-grid--no-spacing section--center">
+          <div class="mdl-cell mdl-cell--12-col">
+            <a class="site-title" href="{{ site.baseurl }}/">
+              <img src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}" width="400" />
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
+    <!--</div>-->
 </header>
