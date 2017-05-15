@@ -2,86 +2,106 @@
 layout: default
 ---
 
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
+<div class="row">
+  <div class="col">
+    <div class="card">
+      <div class="card-block">
+        <h2 class="card-title">このサイトのすすめ</h2>
+      <p class="cart-text">説明</p>
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+      <h2 class="card-title">勉強内容</h2>
+      <p class="cart-text">説明</p>
 
-      https://www.apache.org/licenses/LICENSE-2.0
+      <h2 class="card-title">注意事項</h2>
+      <p class="cart-text">一緒に学んで行きましょう</p>
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-      
-      
-  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-    <div class="mdl-card mdl-cell mdl-cell--12-col">
-      <div class="mdl-card__supporting-text">
-        <h4>このサイトのすすめ</h4>
-        このサイトはうんたらかんたら
-      </div>
-      <div class="mdl-card__actions">
-        <a href="#" class="mdl-button">Read our features</a>
+      <p><a class="btn btn-info btn-lg" href="#" role="button">Learn more »</a></p>
       </div>
     </div>
-    <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn3">
-      <i class="material-icons">more_vert</i>
-    </button>
-    <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn3">
-      <li class="mdl-menu__item">Lorem</li>
-      <li class="mdl-menu__item" disabled>Ipsum</li>
-      <li class="mdl-menu__item">Dolor</li>
-    </ul>
-  </section>
+  </div>
 
-  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-      <!--<i class="material-icons">play_circle_filled</i>-->
-      <iframe width="215" height="200" src="https://www.youtube.com/embed/xkMdLcB_vNU" frameborder="0" allowfullscreen></iframe>
-    </header>
-    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-      <div class="mdl-card__supporting-text">
-        <h4>初期準備</h4>
-        
-      </div>
-      <div class="mdl-card__actions">
-        <a href="./getting_started/prepare/" class="mdl-button">mailアドレス取得、Slackチャットへの参加</a>
-      </div>
-    </div>
-  </section>
+  <div class="col">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/owXYhOrEWzU" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
 
-  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-    <div class="mdl-card mdl-cell mdl-cell--12-col">
-      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-        <h4 class="mdl-cell mdl-cell--12-col">読み書き</h4>
-        <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-          <div class="section__circle-container__circle mdl-color--primary"></div>
-        </div>
-        <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-          <h5>ローマ字</h5>
-          <a href="{{ site.baseurl }}/keyboard/romaji">この記事を読む</a>.
-        </div>
-        <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-          <div class="section__circle-container__circle mdl-color--primary"></div>
-        </div>
-        <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-          <h5>タイピング1</h5>
-          <a href="{{ site.baseurl }}/keyboard/typing1">この記事を読む</a>.
+<div class="row mt-3">
+  <div class="col">
+    <div class="card">
+      <div class="card-block">
+        <div class="media">
+        <img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="250">
+        <div class="media-body">
+          <h4 class="mt-0">キーボードにさわろう</h4>
+          <div class="row">
+            <div class="col">
+              <a href="{{ site.baseurl }}/keyboard/romaji/"><img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="100%"></a>
+            </div>
+            <div class="col">
+              <a href="{{ site.baseurl }}/keyboard/romaji/"><img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="100%"></a>
+            </div>
+            <div class="col">
+              <a href="{{ site.baseurl }}/keyboard/romaji/"><img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="100%"></a>
+            </div>
+          </div>
+          <!--Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.-->
         </div>
       </div>
-      <div class="mdl-card__actions">
-        <a href="#" class="mdl-button">目次へ</a>
       </div>
     </div>
-  </section>
+  </div>
+</div>
 
-          
-        
-    <!--<a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/text-only/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>-->
+<div class="row mt-3">
+  <div class="col">
+    <div class="card">
+      <div class="card-block">
+        <div class="media">
+        <img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="250">
+        <div class="media-body">
+          <h4 class="mt-0">キーボードにさわろう</h4>
+          <div class="row">
+            <div class="col">
+              <img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="100%">
+            </div>
+            <div class="col">
+              <img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="100%">
+            </div>
+            <div class="col">
+              <img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="100%">
+            </div>
+          </div>
+          <!--Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.-->
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="row mt-3 mb-3">
+  <div class="col">
+    <div class="card">
+      <div class="card-block">
+        <div class="media">
+        <img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="250">
+        <div class="media-body">
+          <h4 class="mt-0">キーボードにさわろう</h4>
+          <div class="row">
+            <div class="col">
+              <img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="100%">
+            </div>
+            <div class="col">
+              <img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="100%">
+            </div>
+            <div class="col">
+              <img class="d-flex mr-3" src="{{ site.baseurl }}/img/600x600.png" alt="Generic placeholder image" width="100%">
+            </div>
+          </div>
+          <!--Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.-->
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
